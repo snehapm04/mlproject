@@ -1,0 +1,36 @@
+End to end ML
+Tutorial 1
+1. Setup github
+a-new env
+b-setup.py
+c-requirements.txt
+
+*****a-new env
+creating a new environment
+using this comman in VSCode
+conda create -p venv python==3.8 -y
+conda activate venv/
+
+CLone the env
+
+or create a new repository on the command line
+echo "# mlproject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/snehapm04/mlproject.git
+git push -u origin main
+
+
+For updating commit changes in vsc---
+using git pull command in vsc
+
+
+******setup.py
+Responsi for Creating ml proj as a package 
+src folder is created to store the packages that is found from setup.py
+******requirements.txt
+
+
+Src folder and build package
